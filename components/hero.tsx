@@ -5,7 +5,7 @@ import { DownloadIcon } from '@radix-ui/react-icons';
 
 export default function Hero() {
 	return (
-		<Wrapper className='grid grid-cols-1 items-center justify-between py-7 md:grid-cols-7'>
+		<Wrapper className='grid grid-cols-1 items-center justify-between py-24 md:grid-cols-7'>
 			<div className='md:col-span-4 '>
 				{/* <h3 className='text-4xl my-2 leading-relaxed'> */}
 				<h3 className='text-5xl sm:text-7xl my-2 '>

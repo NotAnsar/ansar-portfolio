@@ -4,7 +4,7 @@ import Wrapper from './wrapper';
 
 export default function Contact() {
 	return (
-		<>
+		<div id='contact'>
 			<MarqueeSection>Contact</MarqueeSection>
 			<Wrapper className='mb-20 mt-4'>
 				<h2 className='font-bold text-5xl md:text-6xl leading-normal mb-6'>
@@ -39,6 +39,6 @@ export default function Contact() {
 					<Button className='px-6 py-7 w-fit mt-6'>Send Request</Button>
 				</form>
 			</Wrapper>
-		</>
+		</div>
 	);
 }
