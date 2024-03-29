@@ -6,7 +6,7 @@ export default function Contact() {
 	return (
 		<div id='contact'>
 			<MarqueeSection>Contact</MarqueeSection>
-			<Wrapper className='mb-20 mt-4'>
+			<Wrapper className='mb-20 '>
 				<h2 className='font-bold text-5xl md:text-6xl leading-normal mb-6'>
 					Interested?
 					<br />

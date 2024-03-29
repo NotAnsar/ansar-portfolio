@@ -3,11 +3,8 @@ import Contact from '@/components/contact';
 import Footer from '@/components/footer';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
-import Wrapper from '@/components/wrapper';
-import { cn } from '@/lib/utils';
-import { Playfair } from 'next/font/google';
-
-const playfair = Playfair({ subsets: ['latin'] });
+import Skills from '@/components/skills';
+import Work from '@/components/work';
 
 export default function Home() {
 	return (
@@ -15,7 +12,8 @@ export default function Home() {
 			<Header />
 			<Hero />
 			<About />
-
+			{/* <Skills /> */}
+			<Work />
 			<Contact />
 			<Footer />
 		</>

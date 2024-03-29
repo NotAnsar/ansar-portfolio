@@ -11,7 +11,7 @@ export default function Header() {
 
 	return (
 		<>
-			<header className='sticky top-0 bg-background/70 backdrop-blur-sm z-10 '>
+			<header className='sticky top-0 bg-background/70 backdrop-blur-sm z-50 '>
 				<div className='flex justify-between items-center max-w-screen-xl mx-auto h-[72px] px-6 '>
 					<Link
 						href='/'
@@ -38,7 +38,7 @@ export default function Header() {
 				</div>
 			</header>
 			{isOpen && (
-				<div className='w-full px-6 py-4 fixed top-[72px] bg-background/70 backdrop-blur-sm z-10 border-b border-border'>
+				<div className='w-full px-6 py-4 fixed top-[72px] bg-background/70 backdrop-blur-sm z-50 border-b border-border'>
 					{LINKS.map((l) => (
 						<Link
 							key={l.title}
