@@ -11,7 +11,7 @@ export default function Work() {
 				{WORK.map((w) => (
 					<div
 						key={w.title}
-						className='w-full h-auto aspect-square bg-foreground text-background relative group border border-border hover:bg-background/75 transition-all duration-1000 z-10'
+						className='w-full h-auto aspect-square bg-foreground text-background relative group border border-border hover:bg-background/85 transition-all duration-1000 z-10'
 					>
 						<Image
 							alt={w.title}
@@ -91,7 +91,7 @@ const WORK = [
 		title: 'Connectify | Social Media App',
 		desc: 'Cadency is a music platform developed using cutting-edge technology, including Next.js 14, Tailwind CSS, and Shadcn UI for styling, Prisma with a PostgreSQL database, and NextAuth for authentication.',
 		link: 'https://www.youtube.com/watch?v=M3_dqIESm5Y&ab_channel=AnsarKarrouach',
-		image: '/',
+		image: '/Connectify.png',
 		source: 'https://github.com/NotAnsar/connectify-client',
 	},
 ];
