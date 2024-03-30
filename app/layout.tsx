@@ -3,6 +3,7 @@ import { Poppins, Montserrat } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
+import { cn } from '@/lib/utils';
 
 const poppins = Poppins({
 	subsets: ['latin'],
@@ -21,7 +22,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en' className='scroll-smooth'>
-			<body className={poppins.className}>
+			<body className={cn(poppins.className, 'bg-noise')}>
 				<ThemeProvider
 					attribute='class'
 					defaultTheme='system'

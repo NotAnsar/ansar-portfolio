@@ -84,6 +84,15 @@ const config = {
 				'scale-in': 'scale-in 2s ease-out',
 				'fade-in': 'fade-in 2s ease-out',
 			},
+			backgroundImage: {
+				noise: "url('/bg-light.png')",
+			},
+			backgroundPosition: {
+				noise: '0 0',
+			},
+			backgroundSize: {
+				noise: '200px 200px',
+			},
 		},
 	},
 	plugins: [require('tailwindcss-animate')],

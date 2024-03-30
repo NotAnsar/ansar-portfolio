@@ -30,9 +30,6 @@ export default function About() {
 				<div>
 					<h3 className='font-bold uppercase text-4xl mt-10 '>Tech Stack</h3>
 				</div>
-				<div>
-					<h3 className='font-bold uppercase text-4xl mt-10 '>Recent Work</h3>
-				</div>
 			</Wrapper>
 		</div>
 	);
