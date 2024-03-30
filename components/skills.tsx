@@ -6,8 +6,8 @@ export default function Skills() {
 	return (
 		<div id='skills'>
 			<MarqueeSection>Skills</MarqueeSection>
-			<Wrapper className='mb-20 py-16'>
-				<h2 className='font-bold text-5xl md:text-6xl leading-normal mb-12'>
+			<Wrapper className='mb-20 py-14'>
+				<h2 className='font-bold text-5xl md:text-6xl leading-normal mb-20'>
 					Tools
 					<br />
 					{'I work With!'}
