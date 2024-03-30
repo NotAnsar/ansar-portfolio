@@ -87,6 +87,7 @@ const config = {
 			backgroundImage: {
 				noise: "url('/bg-light.png')",
 			},
+
 			backgroundPosition: {
 				noise: '0 0',
 			},
