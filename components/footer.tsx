@@ -21,28 +21,25 @@ export default function Footer() {
 			<ul className='col-span-1 mt-4 sm:ml-8 sm:mt-0'>
 				<li>Follow me</li>
 				<Link
-					href={''}
+					href={'http://github.com/NotAnsar'}
 					className='text-sm text-muted-foreground block my-1 hover:opacity-70 transition-all duration-300'
+					target='_blank'
 				>
 					Github
 				</Link>
 				<Link
-					href={''}
+					href={'https://twitter.com/vnsvrKarrouach'}
 					className='text-sm text-muted-foreground block my-1 hover:opacity-70 transition-all duration-300'
+					target='_blank'
 				>
 					Twitter
 				</Link>
 				<Link
-					href={''}
+					href={'https://www.linkedin.com/in/ansarkarrouach/'}
 					className='text-sm text-muted-foreground block my-1 hover:opacity-70 transition-all duration-300'
+					target='_blank'
 				>
 					Linkdin
-				</Link>
-				<Link
-					href={''}
-					className='text-sm text-muted-foreground block my-1 hover:opacity-70 transition-all duration-300'
-				>
-					Behance
 				</Link>
 			</ul>
 		</Wrapper>
