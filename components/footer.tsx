@@ -16,7 +16,7 @@ export default function Footer() {
 						href={''}
 						className='text-muted-foreground text-sm hover:opacity-70 transition-all duration-300'
 					>
-						ansar.karrouach@icloud.com
+						karrouach.ansar@gmail.com
 					</Link>
 				</div>
 				<ul className='col-span-1 mt-4 sm:ml-8 sm:mt-0'>
