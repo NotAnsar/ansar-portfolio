@@ -58,6 +58,6 @@ export default function Header() {
 const LINKS = [
 	{ title: 'About', link: '/#about' },
 	{ title: 'Skills', link: '/#skills' },
-	{ title: 'Projects', link: '/#projects' },
+	{ title: 'Work', link: '/#work' },
 	{ title: 'Contact', link: '/#contact' },
 ];

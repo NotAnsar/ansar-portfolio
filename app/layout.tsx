@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { Poppins, Montserrat } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
+import { Toaster } from '@/components/ui/toaster';
 
 const poppins = Poppins({
-	// const poppins = Montserrat({
 	subsets: ['latin'],
 	weight: ['200', '300', '400', '500', '600'],
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang='en'>
+		<html lang='en' className='scroll-smooth'>
 			<body className={poppins.className}>
 				<ThemeProvider
 					attribute='class'
@@ -29,6 +29,7 @@ export default function RootLayout({
 					disableTransitionOnChange
 				>
 					{children}
+					<Toaster />
 				</ThemeProvider>
 			</body>
 		</html>

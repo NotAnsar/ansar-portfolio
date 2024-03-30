@@ -10,7 +10,7 @@ export default function Wrapper({
 }) {
 	return (
 		<section
-			className={cn('max-w-screen-xl mx-auto px-6', className)}
+			className={cn('max-w-screen-xl mx-auto px-4 sm:px-6', className)}
 			{...props}
 		>
 			{children}
