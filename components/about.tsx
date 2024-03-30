@@ -27,9 +27,6 @@ export default function About() {
 						<EducationCard {...e} key={e.school} />
 					))}
 				</div>
-				<div>
-					<h3 className='font-bold uppercase text-4xl mt-10 '>Tech Stack</h3>
-				</div>
 			</Wrapper>
 		</div>
 	);

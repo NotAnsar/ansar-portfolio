@@ -91,7 +91,7 @@ const config = {
 				noise: '0 0',
 			},
 			backgroundSize: {
-				noise: '200px 200px',
+				noise: '300px 300px',
 			},
 		},
 	},
