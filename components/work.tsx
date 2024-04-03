@@ -95,4 +95,11 @@ const WORK = [
 		image: '/Connectify.png',
 		source: 'https://github.com/NotAnsar/connectify-client',
 	},
+	{
+		title: 'Student Attendance Management System',
+		desc: 'The student attendance management system utilizes React, SCSS, Firebase, and Redux Toolkit for efficient tracking and management of attendance records.',
+		link: 'https://www.youtube.com/watch?v=UNydux6cW9E&ab_channel=AnsarKarrouach',
+		image: '/abs.png',
+		source: 'https://github.com/NotAnsar/gestion_absence/',
+	},
 ];
