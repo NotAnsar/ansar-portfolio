@@ -7,7 +7,9 @@ export default function About() {
 			<MarqueeSection>About Me</MarqueeSection>
 			<Wrapper>
 				<div>
-					<h3 className='font-bold mb-4 uppercase text-4xl mt-10 '>About me</h3>
+					<h3 className='font-bold mb-4 uppercase text-4xl mt-10 font-secondary'>
+						About me
+					</h3>
 					<p className=' text-muted-foreground '>
 						{
 							"👋 Hey there! I'm Karrouach Ansar, a Full Stack Web Developer based in Morocco. I specialize in crafting dynamic web applications using Next.js. With 4+ years of experience in MongoDB, Express.js, React, and Node.js, along with proficiency in TypeScript, I'm passionate about crafting visually stunning designs and seamless digital solutions. I love creating exceptional online experiences that effectively communicate brand messages to audiences. Let's connect and explore exciting web development possibilities together!"
@@ -15,14 +17,18 @@ export default function About() {
 					</p>
 				</div>
 				<div>
-					<h3 className='font-bold uppercase text-4xl mt-10'>Experience</h3>
+					<h3 className='font-bold uppercase text-4xl mt-10 font-secondary'>
+						Experience
+					</h3>
 					{EXPERIENCE.map((e) => (
 						<ExperienceCard {...e} key={e.company} />
 					))}
 				</div>
 
 				<div>
-					<h3 className='font-bold uppercase text-4xl mt-10 '>Education</h3>
+					<h3 className='font-bold uppercase text-4xl mt-10 font-secondary'>
+						Education
+					</h3>
 					{EDUCATION.map((e) => (
 						<EducationCard {...e} key={e.school} />
 					))}

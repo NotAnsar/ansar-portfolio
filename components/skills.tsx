@@ -7,7 +7,7 @@ export default function Skills() {
 		<div id='skills'>
 			<MarqueeSection>Skills</MarqueeSection>
 			<Wrapper className='mb-20 py-14'>
-				<h2 className='font-bold text-5xl md:text-6xl leading-normal mb-20'>
+				<h2 className='font-bold text-5xl md:text-6xl leading-normal mb-20 font-secondary'>
 					Tools
 					<br />
 					{'I work With!'}

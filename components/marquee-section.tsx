@@ -19,7 +19,7 @@ export default function MarqueeSection({
 	return (
 		<Marquee speed={100} autoFill={true}>
 			<p
-				className='py-16  text-8xl font-black mr-12 text-transparent'
+				className='py-16 text-8xl font-black mr-12 text-transparent font-secondary'
 				style={{
 					WebkitTextStroke: `0.5px ${isDark ? '#fff' : '#000'}`,
 				}}

@@ -94,6 +94,9 @@ const config = {
 			backgroundSize: {
 				noise: '300px 300px',
 			},
+			fontFamily: {
+				secondary: 'var(--secondary)',
+			},
 		},
 	},
 	plugins: [require('tailwindcss-animate')],
