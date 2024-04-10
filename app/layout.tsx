@@ -19,7 +19,7 @@ const secondaryfont = Lora({
 export const metadata: Metadata = {
 	title: 'Ansar Karrouach',
 	description:
-		"👋 Hey there! I'm Karrouach Ansar, a Full Stack Web Developer based in Morocco. I specialize in crafting dynamic web applications using Next.js. With 4+ years of experience in MongoDB, Express.js, React, and Node.js, along with proficiency in TypeScript, I'm passionate about crafting visually stunning designs and seamless digital solutions. I love creating exceptional online experiences that effectively communicate brand messages to audiences. Let's connect and explore exciting web development possibilities together!",
+		"👋 Hey! I'm Ansar Karrouach, a MERN Stack Developer. Proficient in MongoDB, Express.js, React, and Node.js, with expertise in TypeScript and Next.js. Passionate about crafting seamless digital solutions. Let's connect and explore web development possibilities!",
 };
 
 export default function RootLayout({
