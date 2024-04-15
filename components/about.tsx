@@ -1,3 +1,4 @@
+import Introduction from './Introduction';
 import MarqueeSection from './marquee-section';
 import Wrapper from './wrapper';
 
@@ -7,14 +8,15 @@ export default function About() {
 			<MarqueeSection>About Me</MarqueeSection>
 			<Wrapper>
 				<div>
-					<h3 className='font-bold mb-4 uppercase text-4xl mt-10 font-secondary'>
+					{/* <h3 className='font-bold mb-4 uppercase text-4xl mt-10 font-secondary'>
 						About me
 					</h3>
 					<p className=' text-muted-foreground '>
 						{
 							"👋 Hey there! I'm Karrouach Ansar, a Full Stack Web Developer based in Morocco. I specialize in crafting dynamic web applications using Next.js. With 4+ years of experience in MongoDB, Express.js, React, and Node.js, along with proficiency in TypeScript, I'm passionate about crafting visually stunning designs and seamless digital solutions. I love creating exceptional online experiences that effectively communicate brand messages to audiences. Let's connect and explore exciting web development possibilities together!"
 						}
-					</p>
+					</p> */}
+					<Introduction value="Hey there! I'm Karrouach Ansar, a Full Stack Web Developer based in Morocco. I specialize in crafting dynamic web applications using Next.js. With 4+ years of experience in MongoDB, Express.js, React, and Node.js, along with proficiency in TypeScript, I'm passionate about crafting visually stunning designs and seamless digital solutions. I love creating exceptional online experiences that effectively communicate brand messages to audiences. Let's connect and explore exciting web development possibilities together!" />
 				</div>
 				<div>
 					<h3 className='font-bold uppercase text-4xl mt-10 font-secondary'>

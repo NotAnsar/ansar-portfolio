@@ -15,7 +15,7 @@ export default function Header() {
 				<div className='flex justify-between items-center max-w-screen-xl mx-auto h-[72px] px-6 '>
 					<Link
 						href='/'
-						className='text-4xl font-bold hover:text-main transition-all ease-in duration-300 cursor-pointer'
+						className='text-4xl font-bold hover:text-main transition-all ease-in duration-300 cursor-pointer font-secondary tracking-wider hover:tracking-wide'
 					>
 						Ansar
 					</Link>
