@@ -18,7 +18,7 @@ export default function Work() {
 							src={w.image}
 							height={700}
 							width={700}
-							className='w-full h-auto aspect-square z-0'
+							className='w-full h-auto aspect-square z-0 object-cover'
 						/>
 						<div className='bg-black/70 sm:bg-transparent absolute top-0 w-full h-full group-hover:bg-black/70 z-[1] transition-all duration-1000' />
 
@@ -83,7 +83,6 @@ const WORK = [
 	{
 		title: 'Cadency | Music Web App',
 		desc: 'Cadency is a music platform developed using cutting-edge technology, including Next.js 14, Tailwind CSS, and Shadcn UI for styling, Prisma with a PostgreSQL database, and NextAuth for authentication.',
-
 		link: 'https://cadency-sage.vercel.app/',
 		image: '/Cadency.png',
 		source: 'https://github.com/NotAnsar/cadency',
@@ -101,5 +100,12 @@ const WORK = [
 		link: 'https://www.youtube.com/watch?v=UNydux6cW9E&ab_channel=AnsarKarrouach',
 		image: '/abs.png',
 		source: 'https://github.com/NotAnsar/gestion_absence/',
+	},
+	{
+		title: 'Xcelerate | Tech Company Landing Page',
+		desc: 'Xcelerate is a tech company landing page developed with Next.js, TypeScript, Tailwind CSS, Framer Motion, and Figma.',
+		link: 'https://xcelerate-nine.vercel.app/',
+		image: '/xcelerate.png',
+		source: 'https://github.com/NotAnsar/xcelerate/',
 	},
 ];

@@ -45,7 +45,7 @@ export function Word({
 			<motion.span style={{ opacity }} className='text-main absolute'>
 				{children}
 			</motion.span>
-			<span className='text-muted-foreground '>{children}</span>
+			<span className='text-muted-foreground/50 '>{children}</span>
 		</span>
 	);
 }
