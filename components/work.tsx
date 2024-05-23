@@ -83,7 +83,7 @@ const WORK = [
 	{
 		title: 'Cadency | Music Web App',
 		desc: 'Cadency is a music platform developed using cutting-edge technology, including Next.js 14, Tailwind CSS, and Shadcn UI for styling, Prisma with a PostgreSQL database, and NextAuth for authentication.',
-		link: 'https://cadency-sage.vercel.app/',
+		link: 'https://cadency-music.vercel.app/',
 		image: '/Cadency.png',
 		source: 'https://github.com/NotAnsar/cadency',
 	},
@@ -104,7 +104,7 @@ const WORK = [
 	{
 		title: 'Xcelerate | Tech Company Landing Page',
 		desc: 'Xcelerate is a tech company landing page developed with Next.js, TypeScript, Tailwind CSS, Framer Motion, and Figma.',
-		link: 'https://xcelerate-nine.vercel.app/',
+		link: 'https://xcelerate.vercel.app/',
 		image: '/xcelerate.png',
 		source: 'https://github.com/NotAnsar/xcelerate/',
 	},
